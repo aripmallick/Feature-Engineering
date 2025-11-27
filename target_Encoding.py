@@ -19,4 +19,4 @@ df_target_encoded=df.copy()
 df_target_encoded[['Fruit','Color']]=target_encoder.fit_transform(df[['Fruit','Color']],df['Fruit'])
 
 print("After Target Encoding:")
-print(df_target_encoded)
+print(df_target_encoded)  
